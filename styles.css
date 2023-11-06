@@ -1,0 +1,171 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-color: #FDF0F0;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.about-me-container{
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  color: black;
+}
+
+.about-me{
+  width: 80%;
+}
+
+.header{
+  font-family: Agbalumo,cursive;
+  text-align: center;
+  font-size: 4rem;
+  color: #FDF0F0;
+  background-color: darkblue;
+  border-radius: 0px 0px 20px 20px;
+  padding-bottom: 20px;
+  /* position: fixed;
+  width: auto; */
+}
+
+.card-title{
+  margin-bottom: 0px;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-text{
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inside{
+  width: 90%;
+}
+
+.main-logo{
+  width: 25%;
+}
+
+.centrepeice{
+  font-size: 3rem;
+  width: 70%;
+  margin: 100px 0px;
+  /* margin-top: 200px; */
+  
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.tile-image {
+  margin-top: 30px;
+  height: 150px;
+  width: 280px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 48%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative1 {
+  color: orangered;
+}
+
+.creative2 {
+  color: darkblue;
+  font-weight: 550;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.tile-image{
+  border-radius: 10px;
+}
+
+@media (max-width: 1000px){
+  .centrepeice{
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .tile-image{
+    width: 100%;
+  }
+
+  .about-me{
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+@media (max-width: 680px) {
+
+  .centrepeice{
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+
+  .row{
+    flex-direction: column;
+  }
+
+  .inside{
+    width: 100%;
+  }
+}
